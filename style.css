@@ -1,11 +1,47 @@
-span {
-    display: inline-block;
-    margin: 20px;
-    padding: 20px;
+/* p.error {
+    color: red;
 }
-div {
-    /* display: inline; */
-    border: 2px solid crimson;
-    margin: 20px;
+p.success{
+    color:#4fdb4f;
+}
+p.success.feedback{
+    border: 1px dashed #4fdb4f;
+}
+#content {
+    background-color: #ebebeb;
     padding: 20px;
+} */
+/* div .error{
+    color:red;
+} */
+/* a[href*="thenetninja"]{
+    background-color: #3dd13d;
+    color: white;
+    text-decoration: none;
+    font-weight:bold;
+    text-transform: uppercase;
+}
+a[href$=".com"]{
+    color: white;
+    background-color: red;
+    border: 2px solid blue;
+} */
+p.success.feedback{
+    border: 1px dashed #4fdb4f;
+}
+div{
+    color: lightcoral;
+    border: 1px solid gray;
+    margin: 40px;
+    font-weight: bold;
+}
+
+div p{
+    border: inherit;
+    margin: inherit;
+    color: crimson;
+}
+
+p{
+    color:orange;
 }
